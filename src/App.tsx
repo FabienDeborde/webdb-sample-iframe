@@ -47,9 +47,10 @@ function App() {
 
   return (
     <>
+      <h4>iframe | 幅: 600 | 高さ: {height}</h4>
       <iframe
         src={IFRAME_URL}
-        width={900}
+        width={600}
         height={height}
       />
     </>
